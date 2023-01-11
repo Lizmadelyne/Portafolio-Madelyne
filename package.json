@@ -4,7 +4,7 @@
   "description": "Mi cv",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Lizmadelyne/Portafolio-Madelyne/issues"
   },
-  "homepage": "https://github.com/Lizmadelyne/Portafolio-Madelyne#readme"
+  "homepage": "https://github.com/Lizmadelyne/Portafolio-Madelyne#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
